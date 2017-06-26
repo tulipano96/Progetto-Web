@@ -1,0 +1,68 @@
+body {
+	background-color: #f7ebbb;
+	color: #4c2f27;
+}
+
+#titolo {
+	text-align: center;
+	font-size: 2.8em;
+}
+
+#confermato {
+	text-align: center;
+	font-size: 2em;
+}
+
+#carrello {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#carrello img {
+	width: 4em;
+}
+
+#carrello tr {
+	text-align: center;
+}
+
+#carrello td {
+	padding: 1em;
+}
+
+table tr:hover {
+	background-color: #edce3f;
+}
+
+table tr #colonna2 {
+	width: 10em;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+table tr #colonna3, #colonna4, #colonna5 {
+	width: 9em;
+	
+		
+}
+
+#colonna4, #colonna3 {
+	font-style: italic;
+}
+
+#colonna5 {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#non_confermato {
+	text-align: center;
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+#totale {
+	text-align: center;
+	font-size: 2em;
+} 

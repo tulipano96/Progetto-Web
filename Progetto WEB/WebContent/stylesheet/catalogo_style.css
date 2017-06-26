@@ -1,0 +1,96 @@
+body {
+	background-color: #f7ebbb;
+	color: #4c2f27;
+}
+
+#titolo {
+	text-align: center;
+	font-size: 2.8em;
+}
+
+#catalogo {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#catalogo img {
+	width: 10em;
+}
+
+#catalogo tr {
+	text-align: center;
+	border-bottom: 0.1em solid #e9c94b;
+}
+
+#catalogo td {
+	padding: 2em;
+}
+
+table tr:hover {
+	background-color: #edce3f;
+}
+
+table tr #colonna1 {
+	width: 10em;
+}
+
+table tr #colonna2 {
+	width: 18em;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+table tr #colonna3, #colonna4, #colonna5 {
+	width: 1.8em;
+}
+
+#colonna4, #colonna3 {
+	font-style: italic;
+}
+
+#colonna5 {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#colonna6 {
+	
+}
+
+table tr#colonna7 {
+	text-align: left;
+}
+
+#riga_senza_prodotti {
+	text-align: center;
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+input[type=submit] {
+	width: 10em;
+	height: 3em;
+	margin-left: -2em;
+	margin-top: -1em;
+	border: 0.1em solid #4c2f27;
+	background-color: #f0d884;
+	font-size: 0.9em;
+}
+
+select {
+	border: 0.1em solid #4c2f27;
+	background-color: #f0d884;
+}
+
+#bottone_carrello {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-right: 3em;
+	float:right;
+	width: 15em;
+	height: 4.5em;
+	border: 0.1em solid #4c2f27;
+	background-color: #f0d884;
+	font-size: 1em;
+}

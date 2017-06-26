@@ -1,0 +1,91 @@
+body {
+	background-color: #f7ebbb;
+	color: #4c2f27;
+}
+
+#titolo {
+	text-align: center;
+	font-size: 2.8em;
+}
+
+#carrello {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#carrello img {
+	width: 4em;
+}
+
+#carrello tr {
+	text-align: center;
+}
+
+#carrello td {
+	padding: 1em;
+}
+
+table tr:hover {
+	background-color: #edce3f;
+}
+
+table tr #colonna2 {
+	width: 18em;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+table tr #colonna3, #colonna4, #colonna5 {
+	width: 3em;
+}
+
+#colonna4, #colonna3 {
+	font-style: italic;
+}
+
+#colonna5 {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+table tr#colonna6 {
+	text-align: left;
+}
+
+#carrello_vuoto {
+	text-align: center;
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+input[type=submit] {
+	width: 10em;
+	height: 3em;
+	margin-left: -2em;
+	border: 0.1em solid #4c2f27;
+	background-color: #f0d884;
+	font-size: 0.9em;
+}
+
+#totale {
+	text-align: center;
+	font-size: 2em;
+}
+
+#link {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#link a {
+	text-decoration:none;
+	color: #4c2f27;
+}
+#link a:hover{
+	color: #a8a8a6;
+}
+#link a:visited{
+	color: #4c2f27;
+}
